@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+</head>
+<body style="background-color: rgba(78, 169, 199, 0.353);">
+<header>
+    
+        <h1 id="header" style="background-color: burlywood; text-align:center;"
+        >Booking System</h1>
+    <div>
+        <h1><span>Time to </span>
+        <strong style="color:darkblue;">book your journey~</strong></h1>
+    </div>
+</header>
+    <nav style="background-color:rgb(255, 255, 255); text-align:center;">
+        <a style="font-size: 20px;" href="#home">Home</a> |
+        <a style="font-size: 20px;" href="#about">About</a> |
+        <a style="font-size: 20px;" href="#contact">Contact</a>
+    </nav>
+
+    <div id="content" style="text-align:center; background-color: rgb(230, 136, 5);">
+        <h2 > &lt; &spades; Main Content Area &#9824; &gt; </h2>
+        <p><strong>Please enter require information for booking process</strong></p>
+
+        <form action="">
+            Email: <input type="email" name="useremail">
+	        <br>
+            <br>
+            Date: <input type="date" name="date">
+	        <br><br>
+            <label for="x">Your Satisfaction(0-10):</label>
+		    <input id="x" type="range" min="0" max="10" step="1" 
+		    value="0" oninput="result.value=x.value"> 10 <br> 
+            = <output name="result" for="x"></output>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="calculator" style="text-align:center; background-color: rgb(202, 48, 184); margin-top:20px;">   
+        <h3>Calculator</h3>
+        <form oninput="z.value=Number(x.value)+Number(y.value)">        
+		<strong>Insert value X:</strong><input id="x" type="number" name="x">
+        <br>
+		<strong>Insert value Y:</strong><input id="y" type="number" name="y">
+		<br>
+		Sum of two values:<output name="z" for="x y"></output>
+	</form>
+    </div>
+    <div>   
+        <footer style="background-color:rgba(38, 80, 195, 0.436); text-align:center; margin-top:20px;">
+            <p>&copy; 2024 Booking System. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
