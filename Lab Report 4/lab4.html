@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!-- Style Type -->
+        <style type="text/css">
+
+            /*Style for link */
+            #Link{
+                a:link{color:#ffffff;} /*unvisited link*/
+                a:visited{color:#e1e115;} /*visited link*/
+                a:hover{color:#2934d6;} /*mouse over link*/
+                a:active{color:#000000;} /*selected link*/
+            }
+
+            /*Style for text decoration*/
+            h1{text-decoration: overline;}
+            h2{text-decoration: line-through;}
+            h3{text-decoration: underline;}
+            h4{text-decoration: blink;}
+
+            /*Style for Section's Header*/
+            #sectionHeader{
+                text-align: center;
+                color: #000000;
+                background-color: #68bfe4;
+                font-size: larger;
+            }
+
+            /*Style for website header*/
+            #header{
+                background-color: #022e70;
+                font-weight: bold;
+                font-style: italic;
+                text-align: center;
+                font-size:xx-large;
+                text-decoration: underline;
+                padding: 20px;
+                text-transform: uppercase;
+                color:#fefefe;
+            }
+
+            /*Style for navigation bar*/
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;   
+                width:300px;
+                margin-left:auto;
+                margin-right:auto;        
+            }
+
+            a:link, a:visited{
+                display: block;
+                font-weight: bold;
+                color: #fefefe;
+                background-color: #0e0132;
+                width: 300px;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            a:hover, a:active{
+                background-color: #0fb0f5;
+            }
+
+            /*Style for form*/
+            #form{
+                text-align: left;
+                background-color: #1a4870;
+                padding: 20px;
+                margin-top: 20px;
+                color: #FFFFFF;
+            }
+
+            /*Style for form division*/
+            #formDiv{
+                background-color: #0e0132;
+                color: #FFFFFF;
+                padding: 15px;
+            }
+
+        </style>
+
+    </head>
+
+    <!-- Body -->
+    <body style="background-color: black;">
+
+        <!-- Header -->
+        <header>
+            <div id="header">Personal Information Page</div>
+        </header>
+
+        <!-- Navigation Bar -->
+        <section style="background-color: #1a4870;">
+            <h1 id="sectionHeader">Menu</h1>
+        <ul>
+            <li><a href="#home">First Page</a></li>
+            <li><a href="#news">Latest News</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">More about Us</a></li>
+        </ul>
+        </section>
+
+        <!-- Personal Information Article -->
+        <article style="color:#fefefe">
+            <h3 id="sectionHeader">Personal Information</h3>
+            <p><h4>Welcome to</h4><h1>PERSONAL INFORMATION PAGE</h1>, nice to meet you,please 
+                fill in your details below.<h2>tq for explore our website.</h2></p>
+            <p>For more information please explore the link below:</p>
+            <p id="Link"><b><a href="https://open.spotify.com/" target="_blank">Ini adalah pautan</a></b></p>
+        </article>
+
+        <!-- Form Section -->
+        <section>
+            <form action="" id="form">
+                <div id="formDiv">
+
+                <!-- Name -->
+                Name: <input type="text" name="username">
+                <br>
+                <br>
+
+                <!-- Email -->
+                Email: <input type="email" name="useremail">
+                <br>
+                <br>
+                </div>
+
+                <!-- White Line -->
+                <div style="background-color: #fcfbfc; padding: 1px;">
+                </div>
+
+                <!-- Gender -->
+                <div id="formDiv">
+                <label for="gender"><strong>Gender:</strong></label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                </div>
+
+                <!-- White Line -->
+                <div style="background-color: #fcfbfc; padding: 1px;">
+                </div>
+
+                <!-- Favorite Hobbies -->
+                <div id="formDiv">
+                Favorite Hobbies:
+                <pre>
+                <input type ="checkbox" name="hobby1" value="Reading">Reading
+                <input type ="checkbox" name="hobby2" value="Traveling">Traveling
+                <input type ="checkbox" name="hobby3" value="Coding">Coding
+                <input type ="checkbox" name="hobby4" value="Sports">Sports
+                </pre>
+                </div>
+
+                <!-- White Line -->
+                <div style="background-color: #fcfbfc; padding: 1px;">
+                </div>
+
+                <!-- Submit Button -->
+                <div id="formDiv">
+                    <input type="submit" value="Submit">
+                </div> 
+                </form>
+        </section>
+
+        <section id="form">
+            <!-- Video Section -->
+            <p>This is our video~ Have a look~</p>
+            <video width="400" height="300" controls>
+                <source src="Upin Ipin Video.mp4" type="video/mp4">
+            </video>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p style="text-align: center; color: #fefefe;">&copy; 2024 Personal Information Page. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
