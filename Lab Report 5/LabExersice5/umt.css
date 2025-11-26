@@ -1,0 +1,88 @@
+            body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: #ffffff;
+            }
+
+            
+            header{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #3e0554;
+                color: #989699;
+                text-align: center;
+                padding: 10px;
+            }
+
+            .header_info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            
+            .header_info p{
+                color:#ffffff;
+                margin: 0 5px;
+                text-align:left;
+            }
+
+            .header_info nav ul{
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                gap: 15px;
+                align-items: center;
+            }
+
+            .header_info a {
+                text-decoration: none;
+                color: #989699;
+            }
+
+            /*change the link color on hover*/
+            li a:hover{
+                color:#ffffff;
+            }
+
+            .logo_img{
+                display: block;
+                float: left;
+                width: auto;
+                height: auto;
+            }
+
+            .second_header{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #fdf8f9;
+                color: rgb(106, 7, 142);
+                text-align: center;
+                padding: 10px;
+            }
+
+            .second_header_info{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .second_header_info p{
+                color:rgb(106, 7, 142);
+                margin: 0 5px;
+                text-align:left;
+            }
+
+            .second_header_info nav ul{
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                gap: 15px;
+                align-items: center;
+            }
+
+            .second_header_info a {
+                text-decoration: none;
+                color: #989699;
+            }
