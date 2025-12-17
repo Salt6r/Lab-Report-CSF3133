@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust | Lab 7</title>
+    <link rel="stylesheet" href="lab7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="sidenav">
+        <div class="nav-logo">WANDER</div>
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+        <a href="#gallery"><i class="fas fa-images"></i> Gallery</a>
+        <a href="#about"><i class="fas fa-user"></i> Profile</a>
+        <a href="#details"><i class="fas fa-info-circle"></i> FAQ</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="transparent-text">EXPLORE BEYOND</h1>
+                <p class="tagline">Capturing the world, one horizon at a time.</p>
+                
+                <form class="hero-form">
+                    <h3>Get Travel Guides</h3>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="btn-primary">Join the Journey</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="gallery" class="container">
+            <h2 class="section-title">Recent Destinations</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80">
+                    <div class="slide-caption">Yosemite Valley, USA</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80">
+                    <div class="slide-caption">Swiss Alps, Switzerland</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=80">
+                    <div class="slide-caption">Lake Braies, Italy</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <div class="profile-card">
+                <div class="profile-header"></div>
+                <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Profile" class="profile-img">
+                <h2>Alex Rivera</h2>
+                <p class="profile-bio">Adventure Photographer & Full-Stack Developer exploring the intersection of tech and nature.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="details" class="container">
+            <h2 class="section-title">Project Milestones</h2>
+            <div class="progress-wrapper">
+                <p>Global Exploration Progress</p>
+                <div class="progress-container">
+                    <div id="myProgressBar" class="progress-bar">65%</div>
+                </div>
+            </div>
+
+            <button class="collapsible">Why Travel With Us? <i class="fas fa-chevron-down"></i></button>
+            <div class="collapsible-content">
+                <p>We provide curated, off-the-beaten-path itineraries that focus on sustainable 
+                    tourism and local culture immersion.</p>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Wanderlust Portfolio Lab</p>
+        </footer>
+    </div>
+
+    <script src="lab7.js"></script>
+</body>
+</html>
